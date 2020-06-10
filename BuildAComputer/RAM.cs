@@ -16,5 +16,7 @@ namespace BuildAComputer
             this.totalGigabytes = totalGigabytes;
             this.brand = brand;
         }
+
+
     }
 }

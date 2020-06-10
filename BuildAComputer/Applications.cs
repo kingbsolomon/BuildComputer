@@ -13,12 +13,13 @@ namespace BuildAComputer
         public double requiredStorage;
 
         //constructor
-        public Applications()
+        public Applications(string applicationName, string applicationType, double requiredRAM,
+            double requiredStorage)
         {
-            applicationName = "Slack";
-            applicationType = "Messaging Service";
-            requiredRAM = 4.0; //In Gigabytes
-            requiredStorage = 0.512; //In Gigabytes
+            this.applicationName = applicationName;
+            this.applicationType = applicationType;
+            this.requiredRAM = requiredRAM;
+            this.requiredStorage = requiredStorage;
         }
 
     }

@@ -17,7 +17,7 @@ namespace BuildAComputer
         {
             this.totalStorage = totalStorage;
             this.availableStorage = availableStorage;
-            //applicationsInHardDrive = new List<Applications>();
+            applicationsInHardDrive = new List<Applications>();
         }
     }
 }

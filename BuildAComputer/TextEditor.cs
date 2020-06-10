@@ -4,7 +4,13 @@ using System.Text;
 
 namespace BuildAComputer
 {
-    public abstract class TextEditor
+    public class TextEditor: Applications
     {
+        public TextEditor(string applicationName, string applicationType, double requiredRAM,
+            double requiredStorage)
+            :base(applicationName, applicationType, requiredRAM, requiredStorage)
+        {
+           
+        }
     }
 }

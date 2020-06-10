@@ -18,5 +18,6 @@ namespace BuildAComputer
             this.effectiveMemory = effectiveMemory;
         }
 
+       
     }
 }

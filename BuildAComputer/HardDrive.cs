@@ -10,12 +10,14 @@ namespace BuildAComputer
         //member variables
         public double totalStorage;
         public double availableStorage;
+        public List<Applications> applicationsInHardDrive;
 
         //constructor
         public HardDrive(double totalStorage, double availableStorage)
         {
             this.totalStorage = totalStorage;
             this.availableStorage = availableStorage;
+            //applicationsInHardDrive = new List<Applications>();
         }
     }
 }

@@ -16,5 +16,25 @@ namespace BuildAComputer
             this.manufacturer = manufacturer;
             this.name = name;
         }
+
+        public void ProcessInstall(Applications app, HardDrive hardDrive, RAM ram)
+        {
+            hardDrive.applicationsInHardDrive.Add(app);
+            hardDrive.availableStorage -= app.requiredStorage;
+
+        }
+
+        public bool CheckReqiurements(Applications app, HardDrive hardDrive, RAM ram)
+        {
+            if(app.requiredRAM <= ram.totalGigabytes
+                && app.requiredStorage <= hardDrive.availableStorage)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

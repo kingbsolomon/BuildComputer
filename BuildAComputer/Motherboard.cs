@@ -24,5 +24,15 @@ namespace BuildAComputer
             this.graphics = graphics;
         }
 
+        /*public void InstallApplication(Applications application)
+        {
+            if(application.requiredRAM <= temporaryMemory.totalGigabytes 
+                && application.requiredStorage <= storage.availableStorage)
+            {
+                storage.applicationsInHardDrive.Add(application);
+            }
+            
+        }*/
+
     }
 }

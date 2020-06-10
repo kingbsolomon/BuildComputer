@@ -11,5 +11,12 @@ namespace BuildAComputer
         public string manufacturer;
         public double effectiveMemory;
 
+        //constructor
+        public GPU(string manufacturer, double effectiveMemory)
+        {
+            this.manufacturer = manufacturer;
+            this.effectiveMemory = effectiveMemory;
+        }
+
     }
 }

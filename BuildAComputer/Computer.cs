@@ -6,5 +6,10 @@ namespace BuildAComputer
 {
     class Computer
     {
+        //constructor
+        public Computer()
+        {
+
+        }
     }
 }

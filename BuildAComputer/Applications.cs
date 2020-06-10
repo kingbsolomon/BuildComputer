@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAComputer
 {
-    class Applications
+    public abstract class Applications
     {
         //member variables
         public string applicationName;
